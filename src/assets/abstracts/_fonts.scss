@@ -1,0 +1,16 @@
+$font-reg: 'libre-reg';
+$font-ital: 'libre-italic';
+$font-bold: 'libre-bold';
+
+@font-face {
+    font-family: $font-reg;
+    src: url(../../Libre_Franklin/LibreFranklin-Regular.ttf);
+}
+@font-face {
+    font-family: $font-ital;
+    src: url(../../Libre_Franklin/LibreFranklin-Bold.ttf);
+}
+@font-face {
+    font-family: $font-bold;
+    src: url(../../Libre_Franklin/LibreFranklin-Italic.ttf);
+}
